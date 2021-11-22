@@ -14,7 +14,7 @@ $(document).on('click', function(){
 
 
 // Set the date we're counting down to
-var countDownDate = new Date("Nov 24, 2021 08:45:00").getTime();
+var countDownDate = new Date("Nov 29, 2021 08:45:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -40,6 +40,26 @@ var x = setInterval(function() {
         document.getElementById("time").innerHTML = "Bless the married couple for happy life!";
     }
 }, 1000);
+
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  //var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  //for (i = 0; i < dots.length; i++) {
+    //dots[i].className = dots[i].className.replace(" active", "");
+ // }
+  slides[slideIndex-1].style.display = "block";  
+  //dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
 
 // being a bit cool :p  
 var styles = [
