@@ -1,6 +1,6 @@
 
 <p align="center"><a href="https://deekshith-harishma.netlify.app/"><img src="./assets/wedding.gif" width="150px" height="150px"/></a></p>
-<h1 align="center"><a href="https://deekshith-harishma.netlify.app/">Wedding Invitation</a> :ring: <br> <br> SAVE THE DATE: NOV 29, 2021 <br> <a href="https://deekshith-harishma.netlify.app/">https://subin-niranjana.netlify.app/</a></h1>
+<h1 align="center"><a href="https://deekshith-harishma.netlify.app/">Wedding Invitation</a> :ring: <br> <br> SAVE THE DATE: NOV 29, 2021 <br> <a href="https://subin-niranjana.netlify.app/">https://subin-niranjana.netlify.app/</a></h1>
 
 
 ## Wedding Invitation :ring:
